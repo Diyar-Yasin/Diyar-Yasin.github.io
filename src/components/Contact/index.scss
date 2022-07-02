@@ -1,0 +1,117 @@
+.contact-form {
+    width: 100%;
+    margin-top: 20px;
+
+    ul {
+        padding: 0;
+        margin: 0;
+
+        li {
+            padding: 0;
+            margin: 0;
+            list-style: none;
+            margin-bottom: 10px;
+            overflow: hidden;
+            display: block;
+            position: relative;
+            opacity: 0;
+            animation: fadeInUp 2s 2s;
+            animation-fill-mode: forwards;
+            clear: both;
+        }
+
+        li.half {
+            width: 49%;
+            margin-left: 2%;
+            float: left;
+            clear: none;
+
+            &:first-child {
+                margin-left: 0;
+            }
+        }
+    }
+
+    input[type='text'],
+    input[type='email'] {
+        width: 100%;
+        border: 0;
+        background-color: #279AF1;
+        height: 50px;
+        font-size: 16px;
+        color: white;
+        padding: 0 20px;
+        box-sizing: border-box;
+    }
+
+    input[type='text']::placeholder,
+    input[type='email']::placeholder {
+        color: white;
+    }
+
+    textarea {
+        width: 100%;
+        border: 0;
+        background-color: #279AF1;
+        height: 50px;
+        font-size: 16px;
+        color: white;
+        padding: 20px;
+        min-height: 150px;
+        box-sizing: border-box;
+    }
+
+    textarea::placeholder {
+        color: white;
+    }
+
+    .flat-button {
+        color: #279AF1;
+        background: 0 0;
+        font: 11px;
+        letter-spacing: 3px;
+        text-decoration: none;
+        padding: 8px 10px;
+        border: 1px solid #279AF1;
+        float: right;
+        border-radius: 4px;
+    }
+
+    .flat-button:hover {
+        color: white;
+        background-color: #279AF1;
+    }
+}
+
+.info-map {
+    position: absolute;
+    background-color: black;
+    top: 50px;
+    right: 30%;
+    z-index: 9999;
+    width: 150px;
+    padding: 20px;
+    color: white;
+    font-family: 'Helveitca';
+    font-weight: 300;
+    opacity: 0;
+    animation: fadeIn 1s 1.5s;
+    animation-fill-mode: forwards;
+}
+
+.map-wrap {
+    background :rgba(8, 155, 253, 0.1);
+    float: right;
+    width: 53%;
+    height: 100%;
+}
+
+.leaflet-container {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    opacity: 0;
+    animation: backInRight 1s 1.2s;
+    animation-fill-mode: forwards;
+}
+
