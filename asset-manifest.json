@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/static/css/main.5ceafe53.css",
+    "main.js": "/static/js/main.e6d0449e.js",
+    "static/js/787.fb771931.chunk.js": "/static/js/787.fb771931.chunk.js",
+    "static/media/BookReviewsCover.PNG": "/static/media/BookReviewsCover.a1023c9f8d78ad7dbe54.PNG",
+    "static/media/WaterlooReviewersCover.PNG": "/static/media/WaterlooReviewersCover.20d6370fea22316ea58a.PNG",
+    "static/media/CrackedAsteroidsCover.PNG": "/static/media/CrackedAsteroidsCover.b68098310098a04139f1.PNG",
+    "static/media/SpaceCadetCover.PNG": "/static/media/SpaceCadetCover.4b963a8982ed3995dfe8.PNG",
+    "static/media/helvetica-neu.ttf": "/static/media/helvetica-neu.8a19678078a6b21c8057.ttf",
+    "static/media/LaBelleAurore.woff2": "/static/media/LaBelleAurore.a83c1c58fd7e43972e4a.woff2",
+    "static/media/UnrealEngineIcon.png": "/static/media/UnrealEngineIcon.bdfa760d3a4d88b9a4ee.png",
+    "static/media/CoolveticaRg-Regular.woff2": "/static/media/CoolveticaRg-Regular.7d1f3b1dd46ad6557a17.woff2",
+    "index.html": "/index.html",
+    "main.5ceafe53.css.map": "/static/css/main.5ceafe53.css.map",
+    "main.e6d0449e.js.map": "/static/js/main.e6d0449e.js.map",
+    "787.fb771931.chunk.js.map": "/static/js/787.fb771931.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5ceafe53.css",
+    "static/js/main.e6d0449e.js"
+  ]
+}
