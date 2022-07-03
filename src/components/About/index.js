@@ -27,17 +27,23 @@ const About = () => {
                     />
                 </h1>
                 <p>
-                    Waterloo Computer Science Co-Op student. Constantly learning things
-                    from the ground up. 
+                    Waterloo Computer Science 3A 
                 </p>
                 <p>
+                    Constantly learning things from the ground up. 
                     I'm passionate about connecting with others. Whether that be through
                     building video games, or interactive websites.
                 </p>
-                <p>
-                    Work experience here?
-                </p>
             </div>
+
+            <div className='card-wrapper'>
+                <div className='about-jobs-card'>
+                    <div className='about-jobs-card-content'>
+                        
+                    </div>
+                </div>
+            </div>
+            
             <div className="stage-cube-cont">
                 <div className='cubespinner'>
                     <div className='face1'>
@@ -67,3 +73,13 @@ const About = () => {
 }
 
 export default About;
+
+/*
+ <p>
+                    Sept 2021 - Dec 2021 | Behaviour Interactive | Support Systems Team Programmer
+
+                </p>
+                <p>
+                    May 2022 - Aug 2022 | Behaviour Interactive | Gameplay Programmer
+
+                </p>*/

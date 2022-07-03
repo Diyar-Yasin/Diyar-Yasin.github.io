@@ -1,4 +1,206 @@
 .home-page {
+    position: relative;
+    .corner-image-div {
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 50%;
+        height: 50%;
+        image-rendering: pixelated;
+        animation-name: cornerImgAnim;
+        animation-timing-function: steps(1, end);
+        animation-fill-mode: forwards;
+        animation-duration: 2s;
+        animation-delay: 2s;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: top right;
+    }
+
+    @keyframes cornerImgAnim {
+        0% {
+            background-image: url('./../../assets/images/HomePageImageFrames/HomePageImage1.png');
+        }
+        15% {
+            background-image: url('./../../assets/images/HomePageImageFrames/HomePageImage2.png');
+        }
+        30% {
+            background-image: url('./../../assets/images/HomePageImageFrames/HomePageImage3.png');
+        }
+        40% {
+            background-image: url('./../../assets/images/HomePageImageFrames/HomePageImage4.png');
+        }
+        50% {
+            background-image: url('./../../assets/images/HomePageImageFrames/HomePageImage5.png');
+        }
+        65% {
+            background-image: url('./../../assets/images/HomePageImageFrames/HomePageImage6.png');
+        }
+        80% {
+            background-image: url('./../../assets/images/HomePageImageFrames/HomePageImage7.png');
+        }
+        90% {
+            background-image: url('./../../assets/images/HomePageImageFrames/HomePageImage8.png');
+        }
+        100% {
+            background-image: url('./../../assets/images/HomePageImageFrames/HomePageImage9.png');
+        }
+    }
+
+    .diver-image-div {
+        position: absolute;
+
+        width: 80%;
+        height: 100%;
+        z-index: -1;
+
+        image-rendering: pixelated;
+        animation-name: diverDiveAnim;
+        animation-timing-function: steps(1, end);
+        animation-fill-mode: forwards;
+        animation-iteration-count: infinite;
+        opacity: 1;
+
+        animation-duration: 1.5s;
+        animation-delay: 3s;
+
+        background-size: 72px auto;
+        background-repeat: no-repeat;
+        background-position: top right;
+        transform: rotate(30deg) translateY(-450px);
+    }
+
+    .diver-2-image-div {
+        position: absolute;
+
+        width: 80%;
+        height: 100%;
+        z-index: -1;
+
+        image-rendering: pixelated;
+        animation-name: diverDiveAnim;
+        animation-timing-function: steps(1, end);
+        animation-fill-mode: forwards;
+        animation-iteration-count: infinite;
+        opacity: 1;
+
+        animation-duration: 1s;
+        animation-delay: 3.5s;
+
+        background-size: 72px auto;
+        background-repeat: no-repeat;
+        background-position: 60% 20%;
+        transform: rotate(30deg) translateY(-450px);
+    }
+
+    .diver-3-image-div {
+        position: absolute;
+
+        width: 80%;
+        height: 100%;
+        z-index: -1;
+
+        image-rendering: pixelated;
+        animation-name: diverDiveAnim;
+        animation-timing-function: steps(1, end);
+        animation-fill-mode: forwards;
+        animation-iteration-count: infinite;
+        opacity: 1;
+
+        animation-duration: 1.5s;
+        animation-delay: 3.5s;
+
+        background-size: 72px auto;
+        background-repeat: no-repeat;
+        background-position: 80% 0%;
+        transform: rotate(30deg) translateY(-450px);
+    }
+
+    @keyframes diverDiveAnim {
+        0% {
+            background-image: url('./../../assets/images/DiverCharacterFrames/Dive/P_Dive1.png');
+            transform: rotate(30deg) translateY(-400px);
+        }
+        5% {
+            background-image: url('./../../assets/images/DiverCharacterFrames/Dive/P_Dive2.png');
+            transform: rotate(30deg) translateY(-350px);
+        }
+        10% {
+            background-image: url('./../../assets/images/DiverCharacterFrames/Dive/P_Dive3.png');
+            transform: rotate(30deg) translateY(-300px);
+        }
+        15% {
+            background-image: url('./../../assets/images/DiverCharacterFrames/Dive/P_Dive4.png');
+            transform: rotate(30deg) translateY(-250px);
+        }
+        20% {
+            background-image: url('./../../assets/images/DiverCharacterFrames/Dive/P_Dive5.png');
+            transform: rotate(30deg) translateY(-200px);
+        }
+        25% {
+            background-image: url('./../../assets/images/DiverCharacterFrames/Dive/P_Dive6.png');
+            transform: rotate(30deg) translateY(-150px);
+        }
+        30% {
+            background-image: url('./../../assets/images/DiverCharacterFrames/Dive/P_Dive7.png');
+            transform: rotate(30deg) translateY(-100px);
+        }
+        35% {
+            background-image: url('./../../assets/images/DiverCharacterFrames/Dive/P_Dive8.png');
+            transform: rotate(30deg) translateY(-50px);
+        }
+        40% {
+            background-image: url('./../../assets/images/DiverCharacterFrames/Dive/P_Dive9.png');
+            transform: rotate(30deg) translateY(0px);
+        }
+        45% {
+            background-image: url('./../../assets/images/DiverCharacterFrames/Dive/P_Dive10.png');
+            transform: rotate(30deg) translateY(50px);
+        }
+        50% {
+            background-image: url('./../../assets/images/DiverCharacterFrames/Dive/P_Dive11.png');
+            transform: rotate(30deg) translateY(100px);
+        }
+        55% {
+            background-image: url('./../../assets/images/DiverCharacterFrames/Dive/P_Dive12.png');
+            transform: rotate(30deg) translateY(150px);
+        }
+        60% {
+            background-image: url('./../../assets/images/DiverCharacterFrames/Death/Diver_Death1.png');
+            transform: rotate(30deg) translateY(150px);   
+        }
+        65% {
+            background-image: url('./../../assets/images/DiverCharacterFrames/Death/Diver_Death2.png');
+            transform: rotate(30deg) translateY(150px);   
+        }
+        70% {
+            background-image: url('./../../assets/images/DiverCharacterFrames/Death/Diver_Death3.png');
+            transform: rotate(30deg) translateY(150px);   
+        }
+        75% {
+            background-image: url('./../../assets/images/DiverCharacterFrames/Death/Diver_Death4.png');
+            transform: rotate(30deg) translateY(150px);   
+        }
+        80% {
+            background-image: url('./../../assets/images/DiverCharacterFrames/Death/Diver_Death5.png');
+            transform: rotate(30deg) translateY(150px);   
+        }
+        85% {
+            background-image: url('./../../assets/images/DiverCharacterFrames/Death/Diver_Death6.png');
+            transform: rotate(30deg) translateY(150px);   
+        }
+        90% {
+            background-image: url('./../../assets/images/DiverCharacterFrames/Death/Diver_Death7.png');
+            transform: rotate(30deg) translateY(150px);   
+        }
+        95% {
+            background-image: url('./../../assets/images/DiverCharacterFrames/Death/Diver_Death8.png');
+            transform: rotate(30deg) translateY(150px);   
+        }
+        100% {
+            opacity: 0;
+        }
+    }
     
     .text-zone {
         position: absolute;

@@ -18,6 +18,10 @@ const Home = () => {
     return (
         <>
         <div className="container home-page">
+            <div className="corner-image-div"></div>
+            <div className="diver-image-div"></div>
+            <div className="diver-2-image-div"></div>
+            <div className="diver-3-image-div"></div>
             <div className="text-zone">
                 <h1>
                 <span className={letterClass}>H</span>

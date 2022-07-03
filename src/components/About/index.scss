@@ -84,3 +84,63 @@
         }
     }
 }
+
+.card-wrapper {
+    display: grid;
+    width: 20%;
+    height: 50%;
+
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 30px;
+    max-width: 1200px;
+    padding: 30px;
+
+    .about-jobs-card {
+        aspect-ratio: 1 / 1 .6;
+        border: 0.5vmin solid var(--border);
+        cursor: pointer;
+        position: relative;
+        width: 56vmin;
+        height: 100%;
+        z-index: 10;
+    
+        &:before {
+            background: linear-gradient(
+                130deg,
+                transparent 0% 33%,
+                var(--g1, red) 66%,
+                var(--g2, blue) 83.5%,
+                var(--g3, green) 100%
+            );
+            background-position: -10% 0%;
+            background-size: 300% 300%;
+            content: "";
+            height: 100%;
+            left: 0px;
+            position: absolute;
+            transition: background-position 350ms ease, transform 350ms ease;
+            top: 0px;
+            width: 100%;
+            z-index: 1;
+        }
+    
+        &:hover:before {
+            background-position: 100% 100%;
+            transform: scale(1.08, 1.03);
+        }
+
+        .about-jobs-card-content {
+            height: 100%;
+            width: 100%;
+            background: radial-gradient(
+                rgba(0, 0, 0, 0.2) 8%,
+                transparent 8%
+            );
+            background-position: 0% 0%;
+            background-size: 5vmin 5vmin;
+            transition: background-position 350ms ease;
+        }
+    }
+}
+
+
