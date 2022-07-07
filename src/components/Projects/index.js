@@ -46,6 +46,11 @@ const Projects = () => {
             <div className="project-card">
                 <a href="https://github.com/KwanYoon/waterloo-reviewers" className="project-card-cover cover-4">
                     <h2>Waterloo Reviewers</h2>
+                </a> 
+            </div>
+            <div className="project-card">
+                <a href="https://commondiyar.itch.io/somesquidscantpaint" className="project-card-cover cover-5">
+                    <h2>Some Squids Can't Paint</h2>
                 </a>
             </div>
         </div>
