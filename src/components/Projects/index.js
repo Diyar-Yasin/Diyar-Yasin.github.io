@@ -54,6 +54,26 @@ const Projects = () => {
                 </a>
             </div>
         </div>
+        <div className='project-card-info-container'>
+            <p className='project-info-1'>
+                Lorem ipsum
+            </p>
+            <p className='project-info-2'>
+                Lorem ipsum
+            </p>
+            <p className='project-info-3'>
+                Lorem ipsum
+            </p>
+            <p className='project-info-4'>
+                Lorem ipsum
+            </p>
+             <p className='project-info-5'>
+                A game jam game made in under 48 hours. 
+                You play as a squid who attacks his fellow squids because it is angry it can't paint. 
+                Shooting ink balls gradually loses accuracy but can be replenished with pickups!
+            </p>
+
+        </div>
     </div>
     <Loader type="pacman" />
     </>
