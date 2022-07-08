@@ -4,8 +4,47 @@
     }
 }
 
+.project-card-info-5 {
+    visibility: hidden;
+}
+
+.project-card-info-container {
+    width: 50%;
+    height: 40%;
+    top: 70%;
+    padding-top: 18%;
+    margin-left: 0;
+    position: absolute;
+    right: 0;
+    overflow: hidden;
+    max-width: 1200px;
+    padding: 30px;
+
+    p {
+        font-size: 24px;
+        position: absolute;
+        visibility: hidden;
+    }
+
+    .project-info-1 {
+
+    }
+    .project-info-2 {
+
+    }
+    .project-info-3 {
+
+    }
+    .project-info-4 {
+
+    }
+    .project-info-5 {
+
+    }
+}
+
 .project-card-container {
-    width: 60%;
+    width: 50%;
     height: 40%;
     top: 30%;
     padding-top: 18%;
